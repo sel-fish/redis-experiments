@@ -1,0 +1,8 @@
+redisHost: localhost
+redisPort: 6379
+valLen: 10
+outputFile: null
+startEntryNums: 265
+maxEntryNums: 350
+entryNumInterval: 5
+hashNums: 1000
