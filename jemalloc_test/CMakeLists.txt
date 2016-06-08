@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+PROJECT(jemalloc_size)
+LINK_DIRECTORIES(/home/fenqi/redis-stable/deps/jemalloc/lib)
+INCLUDE_DIRECTORIES(/home/fenqi/redis-stable/deps/jemalloc/include)
+ADD_EXECUTABLE(jemalloc_size jemalloc_size.cc)
+TARGET_LINK_LIBRARIES(jemalloc_size jemalloc)
+TARGET_LINK_LIBRARIES(jemalloc_size pthread)
