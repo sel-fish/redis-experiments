@@ -1,4 +1,4 @@
 # redis-experiments
 experiments about redis
-- Gopall
+- Gopall  
 test the memory used by jemalloc/tcmalloc/glibc 
