@@ -20,6 +20,7 @@ appender("FILE", FileAppender) {
     }
 }
 
-logger("com.mogujie.mst", INFO, ["FILE"], false)
+//logger("com.mogujie.mst", INFO, ["FILE"], false)
+logger("com.mogujie.mst", INFO, ["CONSOLE"], false)
 
 root(ERROR, ["CONSOLE"])

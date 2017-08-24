@@ -1,5 +1,6 @@
-package com.mogujie.mst;
+package com.mogujie.mst.stackoverflow;
 
+import com.mogujie.mst.RedisExperimentConfig;
 import org.yaml.snakeyaml.Yaml;
 import redis.clients.jedis.Jedis;
 
@@ -31,6 +32,8 @@ public class Gopall {
             e.printStackTrace();
             log.error("init fail, config file is {}", REDIS_EXPERIMENT_CONFIG_FILE);
             return false;
+
+//            InterruptedIOException interruptedIOException = null;
         }
 
         log.info("init ok...");
