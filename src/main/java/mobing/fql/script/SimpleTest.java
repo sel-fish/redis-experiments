@@ -1,4 +1,4 @@
-package com.mogujie.mst.script;
+package mobing.fql.script;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

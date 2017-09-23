@@ -1,6 +1,6 @@
-package com.mogujie.mst.stackoverflow;
+package mobing.fql.stackoverflow;
 
-import com.mogujie.mst.RedisExperimentConfig;
+import mobing.fql.RedisExperimentConfig;
 import org.yaml.snakeyaml.Yaml;
 import redis.clients.jedis.Jedis;
 

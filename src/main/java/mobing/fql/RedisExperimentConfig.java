@@ -1,4 +1,4 @@
-package com.mogujie.mst;
+package mobing.fql;
 
 /**
  * Created by fenqi on 16/6/8.
