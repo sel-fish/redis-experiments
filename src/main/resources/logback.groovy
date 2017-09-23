@@ -13,14 +13,13 @@ appender("CONSOLE", ConsoleAppender) {
 }
 
 appender("FILE", FileAppender) {
-    file = "mst.log"
+    file = "mobing.log"
     append = true
     encoder(PatternLayoutEncoder) {
         pattern = "%d{yyyy/MM/dd-HH:mm:ss} %-5level [%thread] %class:%line >> %msg%n"
     }
 }
 
-//logger("com.mogujie.mst", INFO, ["FILE"], false)
-logger("com.mogujie.mst", INFO, ["CONSOLE"], false)
+logger("mobing.fql", INFO, ["CONSOLE"], false)
 
 root(ERROR, ["CONSOLE"])
